@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<body>
+    <header> <a href="http://imgur.com/9CDpMBX"><img src="http://i.imgur.com/9CDpMBX.jpg" title="source: imgur.com" /></a>
+
+         <h1>Alkia's Sports Blog</h1>
+
+         <h2>Top 3 NBA Athletes</h2>
+
+        <ul>
+            <li><a href="#">About Me</a>
+
+            </li>
+            <li><a href="#">Contact</a>
+
+            </li>
+        </ul>
+        <input id="clear" type="email" placeholder="Your Email">
+        <button class="subscribe">Subscribe</button>
+    </header>
+    <article>
+         <h2>Kobe Bryant</h2>
+
+        <p>Kobe Bean Bryant (born August 23, 1978) is an American professional basketball player for the Los Angeles Lakers of the National Basketball Association (NBA). He entered the NBA directly from high school, and has played for the Lakers his entire career, winning five NBA championships. Bryant is a 17-time All-Star, 15-time member of the All-NBA Team, and 12-time member of the All-Defensive team. He has led the league in scoring twice, and he ranks third on both the league's all-time regular season scoring and all-time postseason scoring lists.</p>
+        <button onclick="myButton()">Like</button>
+    </article>
+    <article>
+         <h2>Anthony Davis</h2>
+
+        <p>Anthony Marshon Davis, Jr. (born March 11, 1993)[1][2] is an American professional basketball player who currently plays for the New Orleans Pelicans of the National Basketball Association (NBA). He plays the power forward and center positions. Davis was selected first overall in the 2012 NBA draft by New Orleans, and is a two-time NBA All-Star. He also earned a gold medal playing with Team USA at the 2012 Summer Olympics.</p>
+        <button onclick="myButton()">Like</button>
+    </article>
+    <article>
+         <h2>James Harden</h2>
+
+        <p>James Edward Harden, Jr. (born August 26, 1989) is an American professional basketball player who currently plays for the Houston Rockets of the National Basketball Association (NBA). Harden played college basketball for Arizona State, where he was named a consensus All-American and Pac-10 Player of the Year in 2009. Harden was selected with the third overall pick in the 2009 NBA draft by Oklahoma City and became the first player drafted in Oklahoma City Thunder franchise history.[1] In 2012, he was named NBA Sixth Man of the Year with the Oklahoma City Thunder while helping them reach the NBA Finals. Harden was traded to Houston prior to the 2012–13 NBA season.</p>
+        <button onclick="myButton()">Like</button>
+    </article>
+        
+    <script>
+        var count = 0;
+
+        function myButton() {
+            count = count + 1;
+            alert('This Athlete has ' + count + ' Likes!');
+        }
+    </script>
